@@ -10,6 +10,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+//ini soal no 1 maksudnya soal yang dibuat cloud atas permintaan rain
+
 static const char *dpath = "/home/tidakumum/Documents";
 
 static int anu_getattr(const char *path, struct stat *stbuf) {
