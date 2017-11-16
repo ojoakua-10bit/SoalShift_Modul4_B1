@@ -10,6 +10,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+//gtw kenapa tapi writenya gmw work meskipun udah aku tambahin fungsi write
+
 static const char *dpath = "/home/tidakumum/Downloads";
 
 static int anu_getattr(const char *path, struct stat *stbuf) {
